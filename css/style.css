@@ -82,18 +82,19 @@ section {
 
 .home-img img {
     width: 35vw;
+    border-radius: 50%;
     animation: floatImage 4s ease-in-out infinite;
 }
 
 @keyframes floatImage {
     0% {
-        transform: translateY(0);
+        transform: translateY(2rem);
     }
     50% {
-        transform: translateY(-22.4rem);
+        transform: translateY(-7.4rem);
     }
     100% {
-        transform: translateY(0);
+        transform: translateY(2rem);
     }
 }
 
@@ -453,7 +454,7 @@ span {
 
     .home-img img {
         width: 70vw;
-        margin-top: 4rem;
+        margin-top: 9rem;
     }
 
     .about {
